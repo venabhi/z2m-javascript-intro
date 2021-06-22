@@ -208,3 +208,16 @@ VM2516:1 Uncaught ReferenceError: byee is not defined
 VM2655:1 Uncaught SyntaxError: Invalid or unexpected token
 "hii there" + "it\'s sunny out"
 "hii thereit's sunny out"
+
+# basics 
+
+//  logical operators 
+//  and , or , not 
+
+//  javascript conditionals 
+//  if ,  else if , else  
+
+//  java script variable = var 
+
+//  javascript comparisions 
+//  ===  , !==, .= <= > < 
