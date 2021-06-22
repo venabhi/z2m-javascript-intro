@@ -545,3 +545,15 @@ else if (age > 18) {
 } else  if (age === 18 ) {
     alert("enjoy tour first ride");
 } 
+
+
+var age = prompt("what is your age");
+
+if (Number(age) < 18) {
+    alert("sorry you are too young to drive");
+}
+else if (Number(age) > 18) {
+    alert("powering on");
+} else  if (Number(age) === 18 ) {
+    alert("enjoy tour first ride")
+}
