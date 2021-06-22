@@ -355,3 +355,193 @@ var first = prompt("enter first num");
 var second = prompt("enter second num");
 alert((first) * (second));
 undefined
+
+//  logical operators 
+//  and , or , not 
+
+//  javascript conditionals 
+//  if ,  else if , else  
+
+//  java script variable = var 
+
+//  javascript comparisions 
+//  ===  , !==, .= <= > < 
+
+if (name === "abhi") {
+    alert("hii abhi");
+}
+undefined
+if (name === "abhi") {
+    alert("hii abhi");
+}
+else if (name === "ram") {
+    alert("hii ram");
+}
+undefined
+name = "abhi"
+
+if (name === "abhi") {
+    alert("hii abhi");
+}
+else if (name === "ram") {
+    alert("hii ram");
+}
+undefined
+name 
+"abhi"
+name = "ram"
+"ram"
+name = "ram"
+
+if (name === "ram") {
+    alert("hii ram");
+}
+else if (name === "abhi") {
+    alert("hii abhi");
+}
+else {
+    alert("you don\'t know me");
+}
+
+undefined
+name 
+name 
+"ram"
+"ram"
+name = "abhi"
+
+
+if (name === "ram") {
+    alert("hii ram");
+}
+else if (name === "abhi") {
+    alert("hii abhi");
+}
+else {
+    alert("you don\'t know me");
+}
+
+
+undefined
+name 
+"abhi"
+name = " abhi"
+" abhi"
+if (name === "abhi" || name = "ram") {
+VM7825:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+name
+" abhi"
+if (name=== "abhi" || name === "ram") {
+    alert("hii abhi or ram");
+}
+undefined
+name 
+" abhi"
+name = "abhi"
+
+if (name === "ram" && name = "abhi") {
+    alert("hii ram or abhi");
+}
+VM8379:3 Uncaught SyntaxError: Invalid left-hand side in assignment
+name = "abhi"
+
+if (name === "ram" && name === "abhi") {
+    alert("hii ram or abhi");
+}
+undefined
+name = "abhi"
+"abhi"
+if (name === "abhi" || name === "ram") {
+    alert("hii abhi or ram");
+}
+undefined
+name 
+"abhi"
+if (name === "ram" && name === "abhi") {
+    alert("hii ram or abhi");
+}
+undefined
+if (name === "abhi" || name === "ram") {
+    alert("hii abhi or ram");
+}
+undefined
+name 
+"abhi"
+if (!(name === "abhi")) {
+    alert("hii ram");
+}
+undefined
+var firstname = "abhi";
+var lastname = "ram";
+
+undefined
+firstname 
+"abhi"
+var firstname = "abhi";
+var lastname = "ram";
+undefined
+if (firstname === "abhi" && lastname === "ram") {
+    alert("hii abhi ram");
+}
+undefined
+if (firstname === "abhi" && lastname === "ssss") {
+    alert("hii abhi ram");
+}
+undefined
+firstname 
+"abhi"
+if (!(firstname === "ram")) {
+    alert("hii ram")
+}
+undefined
+lastname 
+"ram"
+if (!(lastname === "abhi") {
+    alert("hii abhi");
+}
+VM9370:1 Uncaught SyntaxError: Unexpected token '{'
+if (!(lastname === "abhi)) {
+    alert("hii abhi");
+    } 
+
+VM9479:1 Uncaught SyntaxError: Invalid or unexpected token
+if (!(lastname === "abhi")) {
+    alert("hii abhi");
+    } 
+undefined
+!true
+false
+!false
+true
+var age = prompt("what is your age");
+
+if (age < 18) {
+    alert("sorry you are too young to drive");
+}
+else if (age > 18) {
+    alert("powering on");
+} else  if (age === 18 ) {
+    alert("enjoy tour first ride")
+} 
+undefined
+var age = prompt("what is your age");
+
+if (age < 18) {
+    alert("sorry you are too young to drive");
+}
+else if (age > 18) {
+    alert("powering on");
+} else  if (age === 18 ) {
+    alert("enjoy tour first ride")
+} 
+undefined
+var age = prompt("what is your age");
+
+if (age < 18) {
+    alert("sorry you are too young to drive");
+}
+else if (age > 18) {
+    alert("powering on");
+} else  if (age === 18 ) {
+    alert("enjoy tour first ride");
+} 
