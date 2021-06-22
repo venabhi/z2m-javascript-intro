@@ -560,5 +560,26 @@
 
 4 + 3;
 if (4 + 3 === 7) {
-    alert("you are welcome")
+    alert("you are welcome");
 }
+
+//  def a function own 
+function hii() {
+    console.log('hello');
+}
+//  calling a function using a fun name 
+hii();
+
+//  second type of def a function 
+
+var nam = function() {
+        console.log("hellooo");
+    }
+    //  calling a function  using given variable name so, this is called annonymous functions
+nam();
+
+//  even we can give a fun name in annonymous functions
+var nams = function mass() {
+    console.log("helloooo");
+}
+nams();
