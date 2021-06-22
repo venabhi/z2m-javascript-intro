@@ -221,3 +221,22 @@ VM2655:1 Uncaught SyntaxError: Invalid or unexpected token
 
 //  javascript comparisions 
 //  ===  , !==, .= <= > < 
+
+
+console.log = console.log("helloo")
+console.log willl used to print on consoe page 
+
+# what is calling a function ()
+call a function to make a action/fuctionality given 
+() = means call a function 
+("hii") = mean call the arg 
+we can have multiple arguments 
+arguments is inpuy to the functiuon 
+
+example:
+alert("hii")
+here, iam calling the alert function with an argument "hii"
+
+# functions
+functions and annonymous functions are different because in definning a function we are giving a name to that 
+annonymous functions technivally not giving any names we are assigning to a variable or even u can give name var name function hii () {}
