@@ -583,3 +583,41 @@ var nams = function mass() {
     console.log("helloooo");
 }
 nams();
+
+function sing() {
+    console.log("hllll");
+    console.log("kkkkk");
+}
+sing();
+
+// function song(songs) {
+//     console.log(songs);
+// }
+// song('halooooohooolaa');
+// song('huuuuu');
+
+// //  how can give input valus to the argument and get return 
+// //  if we do not return values dosent print and will not give output
+// //  retun way final exit to the function 
+// function multilpy(a, b) {
+//     return a * b;
+// }
+// multilpy()
+// multilpy(2, 4)
+//  giving if condition to a function 
+
+function multiply(a, b) {
+
+    if (a > 10 || b > 20) {
+        return "that's too hard";
+    } else {
+        return a * b;
+    }
+
+}
+// multiply(2, 3)
+//  this page says 6
+// alert(multiply(2, 3))
+var total = multiply(2, 3);
+alert(total)
+    //  parameter = a,b and arguments = 2,3
