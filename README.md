@@ -289,3 +289,29 @@ method use . = user.name()
 2. while
 3. do
 4. forEach (new in ECMAscript 5)
+
+# DOM SELECTORS 
+1. getelementbytagname
+getelementsbyclassname("")[0]
+getelementsbyid()
+
+# QUERYSELECTOR
+document.queryselector()
+document.queryselectorall();
+getattribute
+setattribute
+document.qs().style.background=yellow
+.style.background=green
+document.querySelector("li").classList.remove("cool");
+document.querySelector("li").classList.add("cool");
+document.querySelector("li").classList;
+document.querySelector("li").classList.toggle("cool"); = on / off
+document.qsall("li")[1];= will give ans = doc.qsall()[1].parentelement;= ans ul
+ = .pareele.parele; = ans <body>
+ document.qsall("li")[1];= will give ans = doc.qsall()[1].parentelement;= ans ul
+ = .pareele.parele; = ans <body> = .children = h1,p
+
+ var h1 = doc.qs
+ h1.class = "name";
+
+var h1 = doc.qs = important to cache easily identify untill refresh
