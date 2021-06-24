@@ -40,3 +40,25 @@ if (experience > 95) {
 
 }
 console.log("outside", level);
+
+//  templete string
+const name = "abhi";
+const age = 90;
+const pet = "dog";
+
+const greeting = `hiii ${name} you seem to be ${age}. what a lovely ${pet} you have.`
+
+const names = "ram";
+const ages = 90;
+
+const man = `hii ${names}. your age is ${ages}.`
+
+//  default arguments
+function sss(name = "", age = "90") {
+    return `haiii ${name}. your ${age}`;
+}
+sss();
+
+function ddd(name = "abhi", age = 90) {
+    return `hii ${name}. your ${age}`;
+}
