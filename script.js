@@ -36,33 +36,48 @@
 
 //  write in order 
 
-var button = document.getElementById("enter");
-var value = document.getElementById("input");
-var ul = document.querySelector("ul");
+// var button = document.getElementById("enter");
+// var value = document.getElementById("input");
+// var ul = document.querySelector("ul");
 
-function inputlength() {
-    return input.value.length;
+// function inputlength() {
+//     return input.value.length;
+// }
+
+// function createElement() {
+//     var li = document.createElement("li");
+//     li.appendChild(document.createTextNode(input.value));
+//     ul.appendChild(li);
+//     input.value = "";
+// }
+
+// function listafter(event) {
+//     if (inputlength() > 0) {
+//         createElement();
+//     };
+// }
+
+// function keyafter(event) {
+//     if (inputlength() > 0 && event.keycode === 13) {
+//         createElement();
+//     };
+// }
+
+// button.addEventListener("click", listafter);
+
+// value.addEventListener("keypress", keyafter);
+
+//  exercise
+
+var css = document.querySelector("h3");
+var color1 = document.querySelector(".color1");
+var color2 = document.querySelector(".color2");
+var body = document.getElementById("gradient");
+
+function setgradient() {
+    body.style.background = "linear-gradinet(to right," + color1.value + "," + color2.value + ");";
 }
+color1.addEventListener("input", setgradient);
 
-function createElement() {
-    var li = document.createElement("li");
-    li.appendChild(document.createTextNode(input.value));
-    ul.appendChild(li);
-    input.value = "";
-}
 
-function listafter(event) {
-    if (inputlength() > 0) {
-        createElement();
-    };
-}
-
-function keyafter(event) {
-    if (inputlength() > 0 && event.keycode === 13) {
-        createElement();
-    };
-}
-
-button.addEventListener("click", listafter);
-
-value.addEventListener("keypress", keyafter);
+color2.addEventListener("input", setgradient);
