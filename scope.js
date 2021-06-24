@@ -29,23 +29,14 @@ funniest();
 //  switch javascript condition 
 //  we can use more and more case 
 
-function moving(direction) {
-    var whathappen;
-    switch (direction) {
-        case "forward":
-            whathappen: "encounter a monster s";
-            break;
-        case "left":
-            whathappen: "found a river";
-            break;
-        case "back":
-            whathappen: "enter home";
-            break;
-        case "right":
-            whathappen: "enter right";
-            break;
+//  let and const
+const player = "bobb";
+let experience = 100;
+let level = true;
 
+if (experience > 95) {
+    let level = false;
+    console.log("inside", level);
 
-    }
-    return whathappen;
 }
+console.log("outside", level);
