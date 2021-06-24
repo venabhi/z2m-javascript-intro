@@ -103,3 +103,7 @@ document.queryselector()
 document.queryselectorall();
 getattribute
 setattribute
+
+# parent scope  and child scope
+root is the parent scope ex. window
+when we call fun var it will check the child scope if the var does not exit it will check on parent scope
