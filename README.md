@@ -107,3 +107,6 @@ setattribute
 # parent scope  and child scope
 root is the parent scope ex. window
 when we call fun var it will check the child scope if the var does not exit it will check on parent scope
+# symbol
+symbol is also a data type 
+its a unique. is 2 variables have the same string with symbol datatype those two vars are not equal.

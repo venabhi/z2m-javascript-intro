@@ -62,3 +62,7 @@ sss();
 function ddd(name = "abhi", age = 90) {
     return `hii ${name}. your ${age}`;
 }
+
+//  arrow functions
+//  we can write a function in one single line
+// const add = (a, b) arrow a+b;
