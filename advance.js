@@ -297,3 +297,20 @@ class wizard extends player {
 
 }
 const wizard1 = new wizard('abhi', 'nam');
+
+// pass by value and reference
+//  pass by value do not chage previos value it will copy and run new var
+var a = 5;
+var b = a;
+b++;
+//  pass by reference = it will change whole var it will replace it will also not change using concat methoid
+var c = [1, 2, 3, 4];
+var d = c;
+d.push(23);
+console.log(d);
+
+var c = [1, 2, 3, 4];
+var d = [].concat(c);
+d.push(24);
+console.log(d);
+console.log(c)
