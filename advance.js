@@ -349,3 +349,28 @@ class Mamal extends Animal {
 }
 
 const cow = new Mamal('Shelly', 'cow', 'brown');
+
+//  es2020 data type = BigInt
+//  BigInt is a bit integer type
+Number.MAX_SAFE_INTEGER
+1 n + 2 n = 3 n
+
+let abhi = {
+    raichu: {
+        weight: 30,
+        geight: 6
+    }
+}
+let ram = {
+    pokim: {
+        weight: 30,
+        geight: 6
+    }
+}
+
+
+let abhis = abhi.raichu.weight
+console.log(abhis)
+    //  this advance javascript chain operator will check withgout using iff conditions
+let chainoperator = ram ? .raichu ? .weight
+console.log(chainoperator)
