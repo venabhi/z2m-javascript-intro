@@ -101,3 +101,33 @@ const power100 = (num) => num ** 100;
 // Research for yourself why you get this result.
 
 power100(10000) // Infinity
+
+"abhiram".padStart(10);
+
+"chebrolu".padEnd(10);
+
+"ram".padStart(5);
+
+const fu = (a, b) => {
+    console.log(a);
+}
+fu(1, 2)
+
+//  object keys, values, entries
+
+let obj = {
+    user0: 'abhi',
+    user1: 'ram'
+}
+
+object.keys(obj).forEach((key, index) => {
+    console.log(key, obj[key]);
+});
+
+object.values(obj).forEach(values => {
+    console.log(value);
+})
+
+Object.entries(obj).forEach(value => {
+    console.log(value);
+})
