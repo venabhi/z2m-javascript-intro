@@ -383,3 +383,32 @@ let pound = ram ? .pokim ? .pound ? ? 'no pound'
 //  it will not check for the empty string of parameters
 
 let pound = ram ? .pokim ? .pound // 'no pound'
+
+//  debuging
+
+
+//  module
+module.export = {
+    entry: '.,/ ',
+    output: {
+        path: "./"
+        File:
+    }
+}
+
+module.export = {
+    entry: './',
+    output: {
+        path: './',
+        file:
+    }
+}
+
+//  syntax for modules 
+module.export = {
+    entry: './',
+    output: {
+        path: './',
+        file: ''
+    }
+}
