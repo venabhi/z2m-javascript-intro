@@ -364,7 +364,8 @@ let abhi = {
 let ram = {
     pokim: {
         weight: 30,
-        geight: 6
+        geight: 6,
+        pound: ""
     }
 }
 
@@ -374,3 +375,11 @@ console.log(abhis)
     //  this advance javascript chain operator will check withgout using iff conditions
 let chainoperator = ram ? .raichu ? .weight
 console.log(chainoperator)
+
+//  check for the last parameter with no string ??
+let pound = ram ? .pokim ? .pound ? ? 'no pound'
+
+//  with onlu // operator
+//  it will not check for the empty string of parameters
+
+let pound = ram ? .pokim ? .pound // 'no pound'
