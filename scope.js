@@ -163,3 +163,16 @@ try {
 } catch (error) {
     comsole.log('messed' + error)
 }
+//  for loop
+const basket = ["apples", "bananas"]
+
+for (let i = 0; i < basket.length; i++) {
+    console.log(basket[i]);
+}
+
+//  forEach loop
+basket.forEach(item => {
+        console.log(item)
+    }
+
+)
