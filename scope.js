@@ -131,3 +131,35 @@ object.values(obj).forEach(values => {
 Object.entries(obj).forEach(value => {
     console.log(value);
 })
+
+object.entries(obj).forEach(value => {
+    console.log(value);
+})
+object.Objectfromentries(obj)
+
+
+//  es10 flat(), trimstart, trimend
+
+const va = [1, 2, [3, 4], ]
+va.flat(5)
+
+const uemail = "      vchdh.com";
+const ue2 = "vdhdh.com        ";
+console.log(uemail.trimStart())
+console.log(ue2.trimEnd())
+
+//  try and catch same li try except inj python 
+
+//  try will 
+
+try {
+    4 + 5
+} catch (err) {
+    console.log('messed' + error);
+}
+
+try {
+    true + 'hii'
+} catch (error) {
+    comsole.log('messed' + error)
+}
