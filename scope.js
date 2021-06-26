@@ -176,3 +176,27 @@ basket.forEach(item => {
     }
 
 )
+
+//  for of loop
+
+const basket = ['apples', 'bananas']
+
+for (item of basket) {
+    console.log(item);
+}
+//  itterable all strings and arrays are itterable
+for (item of "abhi") {
+    console.log(item);
+}
+
+//  for in loop 
+// for in loops are work for objects
+//  in for in loop it work for object and properties these are enumable not itterable enumable = object = enumerationg over the properties like index
+const newbas = {
+    apple: 4,
+    bananas: 5
+}
+
+for (item in newbas) {
+    console.log(item);
+}
