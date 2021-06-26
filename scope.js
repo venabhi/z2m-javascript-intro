@@ -200,3 +200,29 @@ const newbas = {
 for (item in newbas) {
     console.log(item);
 }
+
+
+// Write a function checkBasket() that lets you know if the item is in the basket or not
+amazonBasket = {
+    glasses: 1,
+    books: 2,
+    floss: 100
+}
+
+function checkBasket(basket, lookingFor) {
+    for (item in basket) {
+        if (item === lookingFor) {
+            return `${lookingFor} is in your basket`
+        }
+    }
+    return 'that does not exist in your basket'
+}
+
+function heigh(amazonbas, product) {
+    for (item in amazonbas) {
+        if (itrem === product) {
+            return `${product} is in basket`
+        }
+    }
+}
+return `${product} not exist`
