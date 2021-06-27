@@ -412,3 +412,10 @@ module.export = {
         file: ''
     }
 }
+module.export = {
+    entry: './',
+    output: {
+        path: './',
+        file:
+    }
+}

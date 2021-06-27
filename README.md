@@ -113,3 +113,9 @@ its a nce onject reference type
 in reference type an object can be as a reference to the another object
 ex, obj1 can reference to obj 2
 context in obj 1 same as obj2
+
+# BigInt 
+in javascript sotage integer are limited 
+examole number.Max_sAFE_nUMBER 
+SO, IF WE NEED TO ADD / DO ANY CAL TO beyond the maxsafe bunmer use Bigint 
+1n+2n = 3n
