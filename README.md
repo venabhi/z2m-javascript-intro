@@ -119,3 +119,9 @@ in javascript sotage integer are limited
 examole number.Max_sAFE_nUMBER 
 SO, IF WE NEED TO ADD / DO ANY CAL TO beyond the maxsafe bunmer use Bigint 
 1n+2n = 3n
+
+# NPN SCRIPTS
+npn scripts contain registry 
+we can get the packages from the registry 
+all the registry have .json file and js file
+anyone can aacess the npn scripts 
