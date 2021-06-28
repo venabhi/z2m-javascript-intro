@@ -125,3 +125,17 @@ npn scripts contain registry
 we can get the packages from the registry 
 all the registry have .json file and js file
 anyone can aacess the npn scripts 
+
+# REACT APP
+first i8nstall npm in th terminall
+npm -v
+node -v
+
+npx create-react-app myapp
+cd myapp
+start myapp
+
+# upgrade npm version 
+change the depencencies version
+npm install 
+npm start
