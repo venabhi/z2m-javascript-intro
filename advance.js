@@ -448,3 +448,15 @@ grabtweets('abhi/twitter', (error, abhi)) => {
         }
     }
 }
+
+
+//  callback pyramid
+
+movingplayer(100, 'right', function() {
+    movingplayer(200, 'left', function() {
+
+    });
+});
+
+movingplayer(100, 'right')
+    .then(() => moveplayer(200, 'left'))
