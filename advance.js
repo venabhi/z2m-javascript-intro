@@ -535,3 +535,43 @@ promise.all(urls.map(url => {
 }).catch(() => {
     console.log('error')
 })
+
+
+//  async await
+
+player(100, 'left')
+    .then(() => player(200, 'right'))
+    .then(() => player(400, 'styraight'))
+
+//  async 
+async function functionName() {
+    const ss = await player(100, 'hiii')
+    await player(200, 'haloo')
+}
+
+async function functionName() {
+    const sss = await fetch('url')
+    const data = await resp.json()
+    console.log(data)
+}
+
+promise.all(urls.map(url => {
+    fetch(url).then(resp = resp.json())
+})).then(lists => {
+    console.log(user, lists[0])
+    console.log(names, lists[1])
+}).catch(() => {
+    console.log('oops')
+})
+
+const data = async function() {
+    const [users, names] = await promise.all(urls.map(url => {
+        fetch(url).then(resp => resp.json())
+    }))
+}
+
+async function functionName() {
+    const dd = await fetch('url')
+    const ff = await resp.json()
+    console.log(ff)
+}
