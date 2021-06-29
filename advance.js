@@ -514,3 +514,24 @@ promise.all([pro2, pro5])
     .then(values => {
         console.log(values);
     })
+
+//  all urls
+
+promise.all(urls.map(url => {
+    return fetch(url).then(resp = resp.json())
+
+
+})).then(results => {
+    console.log(result[0])
+    console.log(result[1])
+
+})
+
+promise.all(urls.map(url => {
+    return fetch(url).then(resp = resp.json())
+})).then(result => {
+    console.log(result[0])
+    console.log(result[1])
+}).catch(() => {
+    console.log('error')
+})
