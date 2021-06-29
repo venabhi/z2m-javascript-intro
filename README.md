@@ -142,3 +142,16 @@ npm start
 
 # react javascript
 index
+
+# HTTPS
+a communicator between ui and google servers 
+4 methods 
+get - query stringd
+put - store the data in memory
+post - update the data
+delete - it will delete the data in memory 
+
+# json
+app will work much more efficient with json format 
+
+const jsons = json.parse ('{"name":"abhi"})
