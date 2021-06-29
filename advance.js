@@ -440,11 +440,11 @@ grabtweets('abhi/twitter', (error, abhi)) => {
             throw Error;
         }
         displaytewwts(ram)
-        grabtweets('name', (error, name)) => {
+        grabtweets('name', (error, ram)) => {
             if (error) {
                 throw Error;
             }
-            displaytewwts(name)
+            displaytewwts(ram)
         }
     }
 }
@@ -460,3 +460,44 @@ movingplayer(100, 'right', function() {
 
 movingplayer(100, 'right')
     .then(() => moveplayer(200, 'left'))
+
+//  promises
+
+const pro = new Promise((result, reject) => {
+        if (true) {
+            result('hiii')
+        } else {
+            reject('error')
+        }
+    })
+    //  give console.log then result wii print on console
+Pro.then(result => console.log(result));
+pro.then(result => console.log(result));
+
+//  .then chain we can add more to log result  using .then 
+
+const pro = new promise((result, reject) => {
+    if (true) {
+        result('ok')
+    } else {
+        reject('error')
+    }
+
+})
+
+pro
+    .then(result => result + '!')
+    .then(result2 => {
+        throw Error
+        console.log(result2)
+    })
+    //  in promises any errors had found .catch wil found errors
+    .catch(() => console.log('error'))
+
+pro
+    .then(result => result + '!')
+    .then(result2 => result2 + '?')
+    .catch(() => console.log('error'))
+    .then(result3 => {
+        console.log(result3)
+    })
