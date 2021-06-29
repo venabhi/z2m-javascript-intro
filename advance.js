@@ -425,3 +425,26 @@ module.export = {
 fetch('url')
     .then(Response => Response.json())
     .then(data = console.log(data));
+
+//  call back
+
+grabtweets('abhi/twitter', (error, abhi)) => {
+    if (error) {
+        throw Error;
+    }
+    displaytewwts(abhi)
+
+
+    gettweets('username/url', (ram, error)) => {
+        if (error) {
+            throw Error;
+        }
+        displaytewwts(ram)
+        grabtweets('name', (error, name)) => {
+            if (error) {
+                throw Error;
+            }
+            displaytewwts(name)
+        }
+    }
+}

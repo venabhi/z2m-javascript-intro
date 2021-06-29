@@ -161,3 +161,13 @@ const jsons = json.parse ('{"name":"abhi"})
 using fetch we can not reload the whole app everytime just go with thw new pages what we required 
 
 fetch ('url').then(response => response.json()).then(data = console.log(data));
+
+# FRONTEND 
+
+html
+css
+javascript
+ajax = it will use fetch json https
+data servers
+react
+
