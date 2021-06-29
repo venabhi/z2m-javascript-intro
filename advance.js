@@ -501,3 +501,16 @@ pro
     .then(result3 => {
         console.log(result3)
     })
+
+
+const pro2 = new promise((resolve, reject) => {
+    setTimeout(resolve, 100, 'hii')
+})
+const pro5 = new promise((resolve, reject) => {
+    setTimeout(resolve, 1000, 'haloo')
+})
+
+promise.all([pro2, pro5])
+    .then(values => {
+        console.log(values);
+    })
