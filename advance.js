@@ -419,3 +419,9 @@ module.export = {
         file:
     }
 }
+
+//  fetch of app
+
+fetch('url')
+    .then(Response => Response.json())
+    .then(data = console.log(data));

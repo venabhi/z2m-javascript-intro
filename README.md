@@ -155,3 +155,9 @@ delete - it will delete the data in memory
 app will work much more efficient with json format 
 
 const jsons = json.parse ('{"name":"abhi"})
+
+# fetch
+
+using fetch we can not reload the whole app everytime just go with thw new pages what we required 
+
+fetch ('url').then(response => response.json()).then(data = console.log(data));
