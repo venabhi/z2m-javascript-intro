@@ -575,3 +575,12 @@ async function functionName() {
     const ff = await resp.json()
     console.log(ff)
 }
+
+const num = 3;
+
+function multiplyby2(num) {
+    const reult = num * 2;
+    return result;
+}
+const output = multiplyby2(num);
+const newoutput = multiplyby2(10);
