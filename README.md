@@ -171,3 +171,13 @@ ajax = it will use fetch json https
 data servers
 react
 
+# start stop react app
+npm start 
+control+c
+
+# 3 parts in react 
+
+1. import react and reactdom libraries 
+2. create a react component 
+3. take the react compo0nent and show it on screen / render using reactdom and write on html <app/>
+doccument.querySelector('#root')

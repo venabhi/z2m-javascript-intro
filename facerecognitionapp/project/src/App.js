@@ -51,7 +51,8 @@ class App extends component {
         super();
         this.state = {
             input: '',
-            imageurl: ''
+            imageurl: '',
+            box: '',
         }
     }
     oninputChange = (event) => {
