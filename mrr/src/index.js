@@ -76,3 +76,12 @@ const app = () => {
 
   );
 }
+
+//  referencing array and object 
+const arr = [10, 'name'];
+const objs = {
+  name: "abhi"
+}
+
+{ arr } we are referencing arry to jsx
+{objs.name} we are referencing objects to jsx 
