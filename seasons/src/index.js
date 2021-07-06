@@ -59,3 +59,10 @@ ReactDOM.render(<App />, document.querySelector("#root"));
 //     (position) => console.log(postion),
 //     (err) => console.log(err)
 // );
+//  conditional error
+
+// render () {
+//     if (this.state.errorMessage && !this.state.lat) {
+//         return <div>{this.state.lat}</div>
+//     }
+// }
