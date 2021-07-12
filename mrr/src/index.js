@@ -9,7 +9,7 @@ const myr = () => {
   );
 }
 
- dispaly the component on the screen
+//  dispaly the component on the screen
 
 reactDom.render(
   <myr / > ,

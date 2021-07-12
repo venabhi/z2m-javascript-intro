@@ -181,3 +181,10 @@ control+c
 2. create a react component 
 3. take the react compo0nent and show it on screen / render using reactdom and write on html <app/>
 doccument.querySelector('#root')
+
+# component has 3 parts 
+1. component nesting = nested means even we can create more components in a components
+2. component reusability = we want to make components reusability
+3. component config = we shd configure the component when its created 
+
+fundementally arrys are objects . the only difference between array and obj is array have metods
