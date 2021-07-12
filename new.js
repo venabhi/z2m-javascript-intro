@@ -26,4 +26,27 @@ news.greetings ();
 //  assign new valus
 news.name= 'venkata';
 
+//  conditional statements
+
+if (true) {
+    console.log('hello';)
+}
+
+if (false) {
+    console.log('hello');
+}
+
+const value = 2>3;
+
+if (value) {
+    console.log('heloo';)
+}
+
+const value2=false;
+if (value2) {
+    console.log('heloo');
+
+}else {
+    console.log('haiii');
+}
 
