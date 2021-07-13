@@ -120,4 +120,18 @@ switch (dice) {
         console.log('not diced');
 }
 
+const news = 3
+while (news >3) {
+    console.log('hello');
+    news--;
+//  IT WILL RUN FROM 3,2,1,0 AND LOOP WILL END
+}
 
+
+for (let i=0; i<10; i++) {
+    console.log('the number is : ' + i)
+}
+
+for (let number=12; number>=10; i--); {
+    console.log('the number is: ' + i)
+}
