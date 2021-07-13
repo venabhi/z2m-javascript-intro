@@ -105,5 +105,19 @@ if (name !=='bob' && age===24) {
 
 
 
+//  switch statement
+
+const dice = 1;
+
+switch (dice) {
+    case 1:
+        console.log('hello');
+        break;
+    case 2 :
+        console.log('no');
+        break;
+    default:
+        console.log('not diced');
+}
 
 
