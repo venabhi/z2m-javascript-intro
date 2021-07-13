@@ -50,3 +50,18 @@ if (value2) {
     console.log('haiii');
 }
 
+
+let num1 = 4;
+let num2 = 6;
+const result = num1>= num2
+
+if (num1 > num2) {
+    console.log('first number is bigger than second');
+}
+else if (result) {
+    console.log('first num equal to second');
+}
+
+else {
+    console.log('second num is bigger');
+}
