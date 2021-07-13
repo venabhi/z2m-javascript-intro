@@ -135,3 +135,4 @@ for (let i=0; i<10; i++) {
 for (let number=12; number>=10; i--); {
     console.log('the number is: ' + i)
 }
+
