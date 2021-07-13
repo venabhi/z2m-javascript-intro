@@ -65,3 +65,45 @@ else if (result) {
 else {
     console.log('second num is bigger');
 }
+
+
+
+let value = false;
+
+if (!value) {
+    console.log('value is true');
+  }
+
+//    logical operators (&7 ||)
+
+var name = 'peter';
+const age = 24;
+
+if (name ==='bob' || age===24) {
+    console.log('hello there user');
+} else {
+    console.log('wrong values');
+}
+
+var name = 'peter';
+const age = 24;
+
+if (name ==='bob' && age===24) {
+    console.log('hello there user');
+} else {
+    console.log('wrong values');
+}
+
+var name = 'peter';
+const age = 24;
+
+if (name !=='bob' && age===24) {
+    console.log('hello there user');
+} else {
+    console.log('wrong values');
+}
+
+
+
+
+
